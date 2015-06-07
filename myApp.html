@@ -53,17 +53,17 @@
 		  <h3>Popular Dreams:</h3> 
 	  <div class="col-md-4">
 		<a href="images\business.gif" class="thumbnail">
-		  <img src="images\business.gif" alt="Pulpit Rock" style="width:150px;height:150px">
+		  <img src="images\business.gif" alt="business" style="width:150px;height:150px">
 		</a>
 	  </div>
 	  <div class="col-md-4">
 		<a href="images\marathon.jpg" class="thumbnail">
-		  <img src="images\marathon.jpg" alt="Moustiers Sainte Marie" style="width:150px;height:150px">
+		  <img src="images\marathon.jpg" alt="marathon" style="width:150px;height:150px">
 		</a>
 	  </div>
 	  <div class="col-md-4">
 		<a href="images\love.gif" class="thumbnail">
-		  <img src="images\love.gif" alt="Cinque Terre" style="width:150px;height:150px">
+		  <img src="images\love.gif" alt="love" style="width:150px;height:150px">
 		</a>
 	  </div>
 	</div>
@@ -76,10 +76,6 @@
 
 <template name="task">
   <li class="{{#if checked}}checked{{/if}}">
-    <button class="delete">&times;</button>
-
-    <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
-
     <span class="text"><strong>{{username}}</strong> - {{text}}</span>
   </li>
 </template>
