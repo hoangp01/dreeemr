@@ -13,5 +13,3 @@ bootstrap
 accounts-password
 accounts-facebook
 accounts-google
-useraccounts:core
-useraccounts:bootstrap
